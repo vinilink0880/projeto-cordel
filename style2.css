@@ -21,16 +21,78 @@ body, html {
     font-family: var(--font1);
 }
 
-header, footer{
+header {
+    font-family: var(--font2);
     background-color: black;
     color:white;
     text-align: center;
+    padding-top: 10vh;
+
 }
 
-header a
+header a, footer a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font2);
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
 
 header h1 {
     font-family: var(--font2);
     font-variant: small-caps;
     font-size: 10vw;
 }
+
+header p {
+    padding-bottom: 10vh;
+}
+
+section {
+    padding-top: 10vh;
+}
+
+section p {
+    padding-bottom: 10vh;
+    font-size: 4vw;
+    font-family: var(--font3);
+    padding-left: 10px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: gray;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 1px 1px 9px black;
+}
+
+section.imagem p {
+    text-shadow:6px 6px 13px rgb(0, 0, 0);
+}
+
+section#img1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+section#img2 {
+    background-image: url(imagens/background002.jpg);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    font-family: var(--font1);
+    color: white;
+}
+
