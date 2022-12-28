@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --font1:  Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'passion one', cursive;
+    --font3: 'Sriracha', cursive;
+    }
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    background-color: lightgray;
+    font-family: var(--font1);
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--font2);
+    font-size: 10vw;
+    font-variant: small-caps;
+}
+
+header p {
+padding-bottom: 10vh;
+}
+
+header a {
+    font-family: var(--font1);
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header a:hover {
+    text-decoration: ;
+    text-shadow: 1px 1px 10px white;
+    transition-duration: 0.5s;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 4vw;
+    font-family: var(--font3);
+}
+
+section p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    color: white;
+    background-color: black;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow:inset 1px 1px 9px black;
+}
+
+section.imagem p {
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.136);
+    text-shadow: 3px 3px 9px black;
+}
+
+section#img1 {
+    background-image: url(imagens/background001.jpg);
+}
+
+section#img2 {
+    background-image: url(imagens/background002.jpg);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: var(--font2);
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-shadow: 1px 1px 9px white;
+    transition-duration: 0.5s;
+}
