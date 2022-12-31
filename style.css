@@ -23,7 +23,7 @@ body, html {
 header {
     background-color: black;
     color: white;
-    padding-top: 10vh;
+    padding-top: 5vh;
     text-align: center;
 }
 
@@ -45,7 +45,6 @@ header a {
 }
 
 header a:hover {
-    text-decoration: ;
     text-shadow: 1px 1px 10px white;
     transition-duration: 0.5s;
 }
@@ -60,6 +59,7 @@ section {
 
 section p {
     padding-bottom: 2em;
+    line-height: 2em;
 }
 
 section.normal {
